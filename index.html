@@ -1269,18 +1269,6 @@
 					]
 				});
 				
-				monaco.editor.defineTheme('net-theme-dark', {
-					base: 'vs-dark',
-					inherit: true,
-					rules: [
-						{ token: 'global', foreground: 'FFFFFF', fontStyle: "bold" },
-						{ token: 'keyword', foreground: 'ff6a00', fontStyle: "bold" },
-						{ token: 'comment', foreground: '666666' },
-						{ token: 'number', foreground: 'ffc600' },
-						{ token: 'string', foreground: 'ff8c3a' },
-					]
-				});
-				
 				editor = monaco.editor.create(document.getElementById('container'), {
 					value: [
 						"",
